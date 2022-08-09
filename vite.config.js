@@ -19,6 +19,9 @@ export default defineConfig({
             input: {
                 app: "./assets/app.js"
             },
+        },
+        server: {
+            port: 13714
         }
-    },
+    }
 });
