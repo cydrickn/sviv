@@ -1,0 +1,8 @@
+parameters:
+  env(APP_INERTIA_SSR_ENABLE): 'true'
+  env(APP_INERTIA_SSR_URL): 'http://node:13714/render'
+
+rompetomp_inertia:
+  ssr:
+    enabled: '%env(bool:APP_INERTIA_SSR_ENABLE)%'
+    url: '%env(string:APP_INERTIA_SSR_URL)%'

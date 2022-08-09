@@ -1,0 +1,11 @@
+# config/packages/pentatrion_vite.yaml
+pentatrion_vite:
+  # Base public path when served in development or production
+  base: /build/
+  # path to the web root relative to the Symfony project root directory
+  public_dir: /public
+  # Server options
+  server:
+    host: localhost
+    port: 13714
+    https: false
