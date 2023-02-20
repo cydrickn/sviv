@@ -24,7 +24,7 @@ export function render(page) {
         render: renderToString,
         resolve: (name) => {
             // console.log(page, typeof page);
-            return resolvePageComponent(name, import.meta.globEager('./pages/**/*.vue'))
+            return resolvePageComponent(name, import.meta.glob('./pages/**/*.vue', { eager: true }))
         },
         setup({ el, App, props, plugin }) {
             return createSSRApp({ render: () => h(App, props) })

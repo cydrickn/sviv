@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0a8f6a4ea86147b52ba7ae6253eb246",
+    "content-hash": "becd39c773eff6bd802cd5d9db97a15f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -620,16 +620,16 @@
         },
         {
             "name": "rompetomp/inertia-bundle",
-            "version": "v2.3.1",
+            "version": "v2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rompetomp/inertia-bundle.git",
-                "reference": "a859d02f25dc72fb6b29eda3cc0582a166651485"
+                "reference": "889a96e13ad40835d53e848a5c35263b49c519b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rompetomp/inertia-bundle/zipball/a859d02f25dc72fb6b29eda3cc0582a166651485",
-                "reference": "a859d02f25dc72fb6b29eda3cc0582a166651485",
+                "url": "https://api.github.com/repos/rompetomp/inertia-bundle/zipball/889a96e13ad40835d53e848a5c35263b49c519b6",
+                "reference": "889a96e13ad40835d53e848a5c35263b49c519b6",
                 "shasum": ""
             },
             "require": {
@@ -667,9 +667,9 @@
             "description": "A Symfony adapter for Inertia.js",
             "support": {
                 "issues": "https://github.com/rompetomp/inertia-bundle/issues",
-                "source": "https://github.com/rompetomp/inertia-bundle/tree/v2.3.1"
+                "source": "https://github.com/rompetomp/inertia-bundle/tree/v2.4.2"
             },
-            "time": "2022-08-08T14:44:49+00:00"
+            "time": "2022-08-22T06:56:09+00:00"
         },
         {
             "name": "sensio/framework-extra-bundle",
